@@ -60,7 +60,7 @@ To include automatic testing I created a testclass called APITests in the test f
 
 The class has the notation @TestMethodOrder(MethodOrderer.OrderAnnotation.class) that ensures the tests are ran in the correct order. Then each test is ran in a sequence with its own test data, and checks the result is as expected. Example of testing createUser:
 
- @Test
+   @Test
     @Order(1)
     public void testCreateUser() {
         given()
@@ -72,6 +72,7 @@ The class has the notation @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
                 .statusCode(201)
                 .body("username", equalTo("testuser"));
     }
+    
 
 When ran, the test Posts the username and email to "/users" and expects status 201 (created) with the corresponding username equal to the testdata username. If this is accomplished the test runs without failiure.
 
@@ -89,7 +90,7 @@ I continued implementing tests like this until testing of userVotesOnPoll where 
                 .statusCode(200);
     }
 
-    The logic for voting on a poll should be implemented as only needing the unique ID of the objects it uncludeds as a reference to the object and not the object itself. This should create a vote on poll 1 from user 1 with option 1. Manually checking the result when visiting the URL the vote is created but doesnt have the values equal to the testdata.
+The logic for voting on a poll should be implemented as only needing the unique ID of the objects it uncludeds as a reference to the object and not the object itself. This should create a vote on poll 1 from user 1 with option 1. Manually checking the result when visiting the URL the vote is created but doesnt have the values equal to the testdata.
 
 The tests can be run with the ./gradlew test command.
 
