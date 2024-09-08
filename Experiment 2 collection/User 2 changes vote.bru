@@ -1,0 +1,19 @@
+meta {
+  name: User 2 changes vote
+  type: http
+  seq: 9
+}
+
+post {
+  url: http://localhost:8080/vote
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "userId": 2,
+    "voteOptionId": 2
+  }
+  
+}

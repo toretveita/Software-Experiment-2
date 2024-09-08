@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="no.hvl.experiment1.Experiment1ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-05T18:34:36" hostname="T" time="0.213">
+  <properties/>
+  <testcase name="contextLoads()" classname="no.hvl.experiment1.Experiment1ApplicationTests" time="0.213"/>
+  <system-out><![CDATA[20:34:34.978 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [Experiment1ApplicationTests]: using SpringBootContextLoader
+20:34:34.982 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [no.hvl.experiment1.Experiment1ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:34:34.982 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [no.hvl.experiment1.Experiment1ApplicationTests]: Experiment1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:34:35.006 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [Experiment1ApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+20:34:35.066 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\toret\OneDrive\Desktop\DAT250\experiment1\build\classes\java\main\no\hvl\experiment1\Experiment1Application.class]
+20:34:35.066 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration no.hvl.experiment1.Experiment1Application for test class no.hvl.experiment1.Experiment1ApplicationTests
+20:34:35.086 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53654<->127.0.0.1:8080 closed
+20:34:35.086 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53653<->127.0.0.1:8080 closed
+20:34:35.086 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53656<->127.0.0.1:8080 closed
+20:34:35.086 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53655<->127.0.0.1:8080 closed
+20:34:35.086 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53658<->127.0.0.1:8080 closed
+20:34:35.086 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53657<->127.0.0.1:8080 closed
+20:34:35.086 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53659<->127.0.0.1:8080 closed
+20:34:35.086 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53661<->127.0.0.1:8080 closed
+20:34:35.086 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53660<->127.0.0.1:8080 closed
+20:34:35.142 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+20:34:35.142 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+20:34:35.142 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [Experiment1ApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+20:34:35.142 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [Experiment1ApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.0)
+
+2024-09-05T20:34:35.434+02:00  INFO 14384 --- [    Test worker] n.h.e.Experiment1ApplicationTests        : Starting Experiment1ApplicationTests using Java 21.0.4 with PID 14384 (started by toret in C:\Users\toret\OneDrive\Desktop\DAT250\experiment1)
+2024-09-05T20:34:35.438+02:00  INFO 14384 --- [    Test worker] n.h.e.Experiment1ApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-09-05T20:34:36.710+02:00  INFO 14384 --- [    Test worker] n.h.e.Experiment1ApplicationTests        : Started Experiment1ApplicationTests in 1.532 seconds (process running for 4.907)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

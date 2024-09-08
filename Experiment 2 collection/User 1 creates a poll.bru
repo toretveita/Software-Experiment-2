@@ -1,0 +1,19 @@
+meta {
+  name: User 1 creates a poll
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:8080/polls
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "question": "What is your favorite color?",
+    "userId": 1
+  }
+  
+}
